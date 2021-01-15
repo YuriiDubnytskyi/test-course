@@ -1,0 +1,58 @@
+.letter{
+    background: #d4d4d4;
+    box-shadow: inset -1px -1px 20px 3px rgba(0,0,0,0.79);
+    
+}
+
+.letter__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.options{
+    width: 50%;
+    margin: 0 auto;
+}
+.description-letter{
+    text-align: center;
+}
+.description-letter__title{
+    font-size: 2vw;
+}
+.description-letter__text{
+    font-size: 1.3vw;
+    padding: 2px 10px;
+}
+.form-letter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.label--letter label{
+    min-width: 180px;
+    font-weight: 600;
+    font-size: 17px !important;
+}
+.textarea--letter{
+    min-height: 110px!important;
+}
+
+.img--letter{
+    max-width: 500px;
+    height: auto;
+    padding-right: 10px;
+}
+
+.submit-btn--letter{
+    background: linear-gradient(45deg, #8C8C8C 0%, #515447 50%, #C54E29 100%) !important;
+    padding: 10px 20px;
+    color:#ffffff;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.59);
+    min-width: 200px;
+}
+.submit-btn--letter:hover{
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 700;
+    box-shadow: none;
+}

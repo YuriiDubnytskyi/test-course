@@ -1,0 +1,19 @@
+.like-empty__conatainer{
+    width: 100%;
+}
+.description-empty-like{
+    text-align: center;
+}
+.description-empty-like__title{
+    font-size: 3vw;
+}
+.description-empty-like__text{
+    font-size: 2vw;
+}
+.like-empty__img{
+    display: flex;
+    justify-content: space-around;
+}
+.img--empty{
+    max-width: 300px;
+}

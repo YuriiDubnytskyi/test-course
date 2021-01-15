@@ -1,0 +1,19 @@
+.bucket-empty__conatainer{
+    width: 100%;
+}
+.description-empty-bucket{
+    text-align: center;
+}
+.description-empty-bucket__title{
+    font-size: 3vw;
+}
+.description-empty-bucket__text{
+    font-size: 2vw;
+}
+.bucket-empty__img{
+    display: flex;
+    justify-content: space-around;
+}
+.img--empty{
+    max-width: 300px;
+}
