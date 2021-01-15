@@ -1,0 +1,8 @@
+.main_container{
+    min-width: 100px;
+    width: 100%;
+    display: flex;
+    margin: 65px 10px 15px 250px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}

@@ -1,0 +1,32 @@
+.product-list__container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.product_container{
+    width: 100%;
+}
+.product-list__item{
+    text-align: center;
+    background-color: #fff;
+    min-width: 200px;
+    min-height: 100px;
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+.product-list-item__img{
+    max-height: 150px;
+}
+.product-list__btn{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.btn-product-list,.btn-product-list a{
+    text-decoration: none;
+    color:#000;
+    padding: 2px 5px;
+}
